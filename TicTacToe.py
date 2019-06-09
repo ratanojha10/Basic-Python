@@ -29,7 +29,7 @@ for i in ['X','O','X','O','X','O','X','O','X','O']:
         except:
             print("Invalid input")
             continue
-        if response in [1,2,3,4,5,6,7,8,9]:
+        if response in range(1,10):
 
             if response in range(1,4):
                 if R1[response-1]=="   ":
